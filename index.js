@@ -79,7 +79,7 @@ let createEmployeeRecords = function(src) {
 let findEmployeebyFirstName = function(srcArray, firstName) {
   return srcArray.find(function(rec){
     return rec.firstName === firstName
-  })
+  }, "Loki")
 }
 
 let calculatePayroll = function(arrayOfEmployeeRecords){
